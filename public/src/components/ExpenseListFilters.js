@@ -5,15 +5,24 @@ import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } fro
 
 class ExpenseListFilters extends React.Component {
     state = {
+
+        //for the daterange picker
         calendarFocused: null
+
     };
+
     onDatesChange = ({ startDate, endDate }) => {
+
+        //set the start dates to the newly picked date
         this.props.dispatch(setStartDate(startDate));
         this.props.dispatch(setEndDate(endDate));
+
     };
+
     onFocusChange = (calendarFocused) => {
         this.setState(() => ({ calendarFocused }));
     }
+
     render() {
         return (
             <div>
@@ -32,11 +41,12 @@ class ExpenseListFilters extends React.Component {
                         } else if (e.target.value === 'amount') {
                             this.props.dispatch(sortByAmount());
                         }
-                    }}
-                >
+                    }}>
                     <option value="date">Date</option>
-                    <option value="amount">Amount</option>
+                    <option value="sortByHighAmount">Amount(Highest First)</option>
+                    <option value="sortByLowAmount">Amount(Lowest First)</option>
                 </select>
+
                 <DateRangePicker
                     startDate={this.props.filters.startDate}
                     endDate={this.props.filters.endDate}
@@ -47,6 +57,7 @@ class ExpenseListFilters extends React.Component {
                     numberOfMonths={1}
                     isOutsideRange={() => false}
                 />
+
             </div>
         );
     }
