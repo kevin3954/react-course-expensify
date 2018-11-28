@@ -22,12 +22,12 @@ export default (state = filtersReducerDefaultState, action) => {
         case 'SORT_BY_HIGH_AMOUNT':
             return {
                 ...state,
-                sortBy: 'highAmount'
+                sortBy: 'sortByHighAmount'
             };
         case 'SORT_BY_LOW_AMOUNT':
             return {
                 ...state,
-                sortBy: 'lowAmount'
+                sortBy: 'sortByLowAmount'
             };
         case 'SET_START_DATE':
             return {
