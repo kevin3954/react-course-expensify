@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b242c833-32b2-464e-8837-dcbb5df43ff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/src/components/EditExpensePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/src/firebase/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/src/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/src/components/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/src/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/src/routers/PrivateRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/actions/expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/components/AddExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components/AddExpense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/components/EditExpense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components/ExpenseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/components/expenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/src/reducers/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/reducers/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components/EditExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/src/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/firebase/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/routers/AppRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/src/store/configureStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -91,7 +92,7 @@
           <entry key="babelrc" value="31" />
           <entry key="gitignore" value="61" />
           <entry key="html" value="79" />
-          <entry key="js" value="19734" />
+          <entry key="js" value="22252" />
           <entry key="json" value="191" />
           <entry key="md" value="206" />
           <entry key="scss" value="60" />
@@ -101,7 +102,7 @@
         <counts>
           <entry key="HTML" value="79" />
           <entry key="JSON" value="222" />
-          <entry key="JavaScript" value="19734" />
+          <entry key="JavaScript" value="22252" />
           <entry key="Markdown" value="206" />
           <entry key="PLAIN_TEXT" value="61" />
           <entry key="SCSS" value="60" />
@@ -112,7 +113,7 @@
           <entry key="babelrc" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="html" value="2" />
-          <entry key="js" value="116" />
+          <entry key="js" value="128" />
           <entry key="json" value="6" />
           <entry key="map" value="1" />
           <entry key="md" value="1" />
@@ -123,7 +124,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="116" />
+          <entry key="JavaScript" value="128" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="3" />
@@ -135,31 +136,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/src/actions/expenses.js">
+        <entry file="file://$PROJECT_DIR$/public/src/routers/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-158">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#91#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/src/components/EditExpensePage.js">
+        <entry file="file://$PROJECT_DIR$/public/src/routers/PrivateRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/src/components/ExpenseForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -182,7 +174,11 @@
     <findStrings>
       <find>setSta</find>
       <find>action</find>
+      <find>expenseForm</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/public</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -190,10 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/src/styles/components/_header.scss" />
-        <option value="$PROJECT_DIR$/public/src/styles/components/_container.scss" />
-        <option value="$PROJECT_DIR$/public/src/styles/components/_button.scss" />
-        <option value="$PROJECT_DIR$/public/src/components/Action.js" />
         <option value="$PROJECT_DIR$/public/src/styles/components/_widget.scss" />
         <option value="$PROJECT_DIR$/public/src/components/Options.js" />
         <option value="$PROJECT_DIR$/public/src/components/Option.js" />
@@ -208,7 +200,6 @@
         <option value="$PROJECT_DIR$/public/src/styles/base/_base.scss" />
         <option value="$PROJECT_DIR$/public/src/components/HelpPage.js" />
         <option value="$PROJECT_DIR$/public/src/components/404.js" />
-        <option value="$PROJECT_DIR$/public/src/components/Header.js" />
         <option value="$PROJECT_DIR$/public/src/playground/destructuring.js" />
         <option value="$PROJECT_DIR$/public/src/playground/redux101.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
@@ -230,17 +221,22 @@
         <option value="$PROJECT_DIR$/public/src/reducers/filters.js" />
         <option value="$PROJECT_DIR$/public/src/actions/filters.js" />
         <option value="$PROJECT_DIR$/public/src/components/ExpenseListFilters.js" />
-        <option value="$PROJECT_DIR$/public/src/firebase/firebase.js" />
-        <option value="$PROJECT_DIR$/public/src/components/AddExpense.js" />
-        <option value="$PROJECT_DIR$/public/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/public/src/reducers/expenses.js" />
-        <option value="$PROJECT_DIR$/public/src/app.js" />
         <option value="$PROJECT_DIR$/public/src/components/ExpenseList.js" />
-        <option value="$PROJECT_DIR$/public/src/actions/expenses.js" />
         <option value="$PROJECT_DIR$/public/src/components/EditExpense.js" />
-        <option value="$PROJECT_DIR$/public/src/routers/AppRouter.js" />
         <option value="$PROJECT_DIR$/public/src/components/ExpenseForm.js" />
+        <option value="$PROJECT_DIR$/public/src/components/AddExpense.js" />
+        <option value="$PROJECT_DIR$/public/src/actions/expenses.js" />
         <option value="$PROJECT_DIR$/public/src/components/EditExpensePage.js" />
+        <option value="$PROJECT_DIR$/public/src/firebase/firebase.js" />
+        <option value="$PROJECT_DIR$/public/src/components/LoginPage.js" />
+        <option value="$PROJECT_DIR$/public/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/public/src/reducers/auth.js" />
+        <option value="$PROJECT_DIR$/public/src/store/configureStore.js" />
+        <option value="$PROJECT_DIR$/public/src/actions/auth.js" />
+        <option value="$PROJECT_DIR$/public/src/app.js" />
+        <option value="$PROJECT_DIR$/public/src/routers/AppRouter.js" />
+        <option value="$PROJECT_DIR$/public/src/routers/PrivateRoute.js" />
       </list>
     </option>
   </component>
@@ -397,18 +393,18 @@
       <workItem from="1541277812931" duration="20055000" />
       <workItem from="1542036073335" duration="75123000" />
       <workItem from="1542912771861" duration="28221000" />
-      <workItem from="1543004284695" duration="64501000" />
+      <workItem from="1543004284695" duration="72124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187900000" />
+    <option name="totallyTimeSpent" value="195523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1613" y="-154" width="1400" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,7 +416,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38477802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38477802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -434,10 +430,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/src/styles/base/_fontsize.scss" />
-    <entry file="file://$PROJECT_DIR$/public/src/styles/components/_button.scss" />
-    <entry file="file://$PROJECT_DIR$/public/src/components/Action.js" />
-    <entry file="file://$PROJECT_DIR$/public/src/styles/components/_widget.scss" />
     <entry file="file://$PROJECT_DIR$/public/src/components/Options.js" />
     <entry file="file://$PROJECT_DIR$/public/src/components/Option.js" />
     <entry file="file://$PROJECT_DIR$/public/src/components/AddOption.js" />
@@ -563,16 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -669,47 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/store/configureStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/components/AddExpense.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/firebase/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/src/reducers/expenses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#1#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,23 +664,6 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/routers/AppRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/actions/expenses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,8 +680,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/components/EditExpensePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="367">
+          <caret line="35" column="79" lean-forward="true" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/actions/expenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/firebase/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/components/AddExpense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/components/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/store/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#1#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/reducers/auth.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/actions/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/routers/AppRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#91#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/routers/PrivateRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
